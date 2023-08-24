@@ -14,9 +14,7 @@ Two versions:
    - output:
      - on terminal, `findpng2 execution time: S seconds`
      - program will create a `png_urls.txt` file containing all the valid PNG urls found
-</br>
-</br>
-1. asynchronous: findpng3 [OPTION]... [ROOT_URL]
+2. asynchronous: findpng3 [OPTION]... [ROOT_URL]
    - options: 
      - -t=NUM - program will keep a maximum of NUM concurrent connections to crawl the web (default: 1)
      - -m=NUM - program will find up to NUM unique PNG urls (default: 50)
