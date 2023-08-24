@@ -1,5 +1,7 @@
 # CWebCrawler
 
+Uses the cURL library (and poll for the asynchronous implementation).
+
 Two versions:
 1. multithreaded separates downloading from cURL to multiple threads
 2. asynchronous handles multiple downloads using asynchronous I/O (poll) 
